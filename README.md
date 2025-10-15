@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nexus CLI v2
 
 > **CLI pour generer instantanement des projets Backend, Frontend ou Fullstack avec architectures professionnelles**
@@ -217,3 +218,7 @@ MIT License - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ## Merci d'utiliser Nexus CLI !
 
+=======
+# cli-nexus
+CLI pour générer instantanément des projets Backend, Frontend ou Fullstack avec des architectures professionnelles
+>>>>>>> e5d42c84079e6035e37dba08ebe98957c00e4820
