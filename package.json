@@ -1,0 +1,50 @@
+{
+  "name": "cli-nexus",
+  "version": "2.0.3",
+  "description": "CLI pour générer instantanément des projets Node.js avec architecture professionnelle",
+  "main": "bin/nexus.js",
+  "bin": {
+    "nexus-cli": "./bin/nexus.js"
+  },
+  "scripts": {
+    "start": "node bin/nexus.js",
+    "dev": "nodemon bin/nexus.js",
+    "test": "jest",
+    "lint": "eslint src/",
+    "build": "echo 'No build step needed for Node.js CLI'"
+  },
+  "keywords": [
+    "cli",
+    "nodejs",
+    "generator",
+    "architecture",
+    "mvc",
+    "clean-architecture",
+    "hexagonal",
+    "scaffolding"
+  ],
+  "author": "Nexus Team",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.2.0",
+    "commander": "^11.1.0",
+    "ora": "^5.4.1",
+    "figlet": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "eslint": "^8.56.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
